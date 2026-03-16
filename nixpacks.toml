@@ -1,5 +1,5 @@
 [phases.setup]
-nixPkgs = ["php", "php83Extensions.pdo_pgsql"]
+nixPkgs = ["php", "phpExtensions.pdo_pgsql"]
 
 [start]
 cmd = "php -S 0.0.0.0:$PORT -t ."
