@@ -2,4 +2,4 @@
 nixPkgs = ["php"]
 
 [start]
-cmd = "php -S 0.0.0.0:$PORT"
+cmd = "php -S 0.0.0.0:$PORT -t ."
